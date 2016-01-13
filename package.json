@@ -1,4 +1,16 @@
 {
-  "name": "application-name",
-  "version": "0.0.1"
+  "name": "node-weixin-crypto",
+  "version": "0.0.1",
+  "description": "Weixin message crypto functions for node",
+  "author": {
+    "name": "lgyt34",
+    "email": "lgyt34@hotmail.com",
+    "url": ""
+  },
+  "repository": "https://github.com/lgyhitler/node-weixin-crypto.git",
+  "license": "MIT",
+  "dependencies": {
+    "node-weixin-util": "^0.2.0",
+    "xml2json": "^0.9.0"
+  }
 }
