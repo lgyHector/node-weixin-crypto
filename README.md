@@ -49,3 +49,15 @@ var xml = '<xml>....</xml>';// 微信明文消息string
 var encryptMsg = nc.encrypt(app, timestamp, nonce, xml);
 
 ```
+
+## License
+MIT © [lgyhitler]
+
+[npm-image]: https://badge.fury.io/js/node-weixin-util.svg
+[npm-url]: https://npmjs.org/package/node-weixin-util
+[travis-image]: https://travis-ci.org/node-weixin/node-weixin-util.svg?branch=master
+[travis-url]: https://travis-ci.org/node-weixin/node-weixin-util
+[daviddm-image]: https://david-dm.org/node-weixin/node-weixin-util.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/node-weixin/node-weixin-util
+[coveralls-image]: https://coveralls.io/repos/node-weixin/node-weixin-util/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/node-weixin/node-weixin-util?branch=master
