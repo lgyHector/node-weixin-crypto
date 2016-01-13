@@ -1,5 +1,6 @@
+#  [![Build Status][travis-image]][travis-url]
 # node-weixin-crypto
-[![Build Status](https://travis-ci.org/greengerong/qing.png?branch=master)](https://travis-ci.org/greengerong/qing)
+
 此模块是基于微信官方demo代码包中C++代码，使用node-gyp封装为nodejs addon 模块
 使用64位openssl,tinyxml2 构建，也包含32位包。有需要可以自行修改gyp文件
 进行build。
