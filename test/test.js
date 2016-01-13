@@ -4,7 +4,7 @@ var nc = require('../index.js');
 
 var app = {
     id: 'wx2c2769f8efd9abc2',
-    secret: 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFG',
+    key: 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFG',
     token: 'spamtest'
 }
 var signure = '003fee52ecc56afb46c00b5c7721be87860ce785'
