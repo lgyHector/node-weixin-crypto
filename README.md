@@ -1,4 +1,4 @@
-#  [![Build Status](https://travis-ci.org/lgyhitler/node-weixin-crypto.svg?branch=master)](https://travis-ci.org/lgyhitler/node-weixin-crypto)
+#  [![Build Status](https://travis-ci.org/lgyhitler/node-weixin-crypto.svg?branch=master)](https://travis-ci.org/lgyhitler/node-weixin-crypto)[![Coverage Status](https://coveralls.io/repos/lgyhitler/node-weixin-crypto/badge.svg?branch=master&service=github)](https://coveralls.io/github/lgyhitler/node-weixin-crypto?branch=master)
 # node-weixin-crypto
 
 此模块是基于微信官方demo代码包中C++代码，使用node-gyp封装为nodejs addon 模块
