@@ -44,9 +44,9 @@ INCS_Debug := \
 	-I/Users/user/.node-gyp/0.10.35/src \
 	-I/Users/user/.node-gyp/0.10.35/deps/uv/include \
 	-I/Users/user/.node-gyp/0.10.35/deps/v8/include \
-	-I$(srcdir)/lib/include64 \
-	-I$(srcdir)/lib/include64/openssl \
-	-I$(srcdir)/lib/include64/tinyxml2
+	-I$(srcdir)/addon/lib/include64 \
+	-I$(srcdir)/addon/lib/include64/openssl \
+	-I$(srcdir)/addon/lib/include64/tinyxml2
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=crypto' \
@@ -88,14 +88,14 @@ INCS_Release := \
 	-I/Users/user/.node-gyp/0.10.35/src \
 	-I/Users/user/.node-gyp/0.10.35/deps/uv/include \
 	-I/Users/user/.node-gyp/0.10.35/deps/v8/include \
-	-I$(srcdir)/lib/include64 \
-	-I$(srcdir)/lib/include64/openssl \
-	-I$(srcdir)/lib/include64/tinyxml2
+	-I$(srcdir)/addon/lib/include64 \
+	-I$(srcdir)/addon/lib/include64/openssl \
+	-I$(srcdir)/addon/lib/include64/tinyxml2
 
 OBJS := \
-	$(obj).target/$(TARGET)/src/crypto.o \
-	$(obj).target/$(TARGET)/src/WXBizMsgCrypt.o \
-	$(obj).target/$(TARGET)/lib/include64/tinyxml2/tinyxml2.o
+	$(obj).target/$(TARGET)/addon/src/crypto.o \
+	$(obj).target/$(TARGET)/addon/src/WXBizMsgCrypt.o \
+	$(obj).target/$(TARGET)/addon/lib/include64/tinyxml2/tinyxml2.o
 
 # Add to the list of files we specially track dependencies for.
 all_deps += $(OBJS)
