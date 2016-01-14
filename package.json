@@ -9,12 +9,10 @@
   },
   "repository": "https://github.com/lgyhitler/node-weixin-crypto.git",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "xml2json": "^0.9.0"
   },
   "scripts": {
-    "install": "node-gyp rebuild",
     "test": "mocha test/test.js"
   }
 }
